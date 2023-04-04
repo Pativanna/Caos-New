@@ -1,77 +1,119 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
-    <div class="cuadrotexto1">
-    <center><h1 class="titulocuadro" >Caos New</h1></center>
-    </div>  
-   
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Caos New</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../categoria.html">categoria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../Periodista.html">Periodista</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../usuario.html">Usuario</a>
-              </li>
 
-              
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+  <link rel="stylesheet" href="../CSS/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <!--Header parte azul-->
+  <div class="mod-bg-body-tertiary">
+    <div class="container-top-header">
+      <a class="txt-top-header" href="../index.html">Caos News</a>
+
+    </div>
+    <img class="img-fluid float-end" src="../img/Logo-Header.avif" alt="Logo">
+  </div>
+  <!--Header Navbar-->
+  <nav class="navbar navbar-expand-sm bg-body-tertiary">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <!--
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Políticas</a></li>
+              <li><a class="dropdown-item" href="#">Deportivas</a></li>
+              <li><a class="dropdown-item" href="#">Económicas</a></li>
+              <li><a class="dropdown-item" href="#">Culturales</a></li>
+              <li><a class="dropdown-item" href="#">Sociales</a></li>
+              <li><a class="dropdown-item" href="#">farándula</a></li>
+              <li><a class="dropdown-item" href="#">Policiales</a></li>
+              <li><a class="dropdown-item" href="#">Científicas</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Otras</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+          </li>
+          -->
+          <li class="nav-item">
+            <a class="nav-link" href="../categoria.html">Categorias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../Periodista.html">Periodista</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+        <ul class="navbar-nav margin-left-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../crearcuenta.html">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../usuario.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <BR><BR>
+  <center>
+    <h1>LeBron James alcanza un récord histórico de anotaciones en la NBAs:</h1>
+  </center>
+  <h5>categoria:Internacional</h5>
+  <center>
+    <div class="card mb-3" style="max-width: 1900px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/lebron.jpg" class="img-fluid rounded-start" alt="..." height="500px">
+
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Record historico en la NBA</h5>
+            <p class="">El jugador estrella de los Lakers, LeBron James, sigue sumando récords a su carrera profesional
+              y esta vez logró alcanzar el título del máximo anotador de la NBA, la liga más importante de básquet en
+              Estados Unidos.
+              Aclamado como "el Elegido" cuando aún estaba en el instituto, LeBron James siempre pareció destinado a
+              convertirse en el máximo anotador de todos los tiempos de la Asociación Nacional de Baloncesto
+              estadounidense (NBA) y reclamar un récord que él mismo creyó que nunca sería rebasado. Ese momento
+              aparentemente inevitable llegó el martes.
+
+              Casi 20 años después de anotar sus dos primeros puntos el 29 de octubre de 2003, James anotó un tiro en
+              suspensión al final del tercer cuarto en la derrota de Los Ángeles Lakers por 133-130 ante los Oklahoma
+              City Thunder, superando los 38.387 puntos de Kareem Abdul-Jabbar para grabar su nombre en los libros de
+              historia..</p>
+            <p class="card-text"><small class="text-body-secondary">8 de febrero. EE.UU</small></p>
+            <a href="../nomcategorias/catdeporte.html" class="btn btn-primary">Volver</a>
+
           </div>
         </div>
-    </nav>
-    <BR><BR>
-        <center><h1 >LeBron James alcanza un récord histórico de anotaciones en la NBAs:</h1></center>
-        <h5 >categoria:Internacional</h5>
-        <center>
-        <div class="card mb-3" style="max-width: 1900px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/lebron.jpg" class="img-fluid rounded-start" alt="..." height="500px">
-                
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Record historico en la NBA</h5>
-                  <p class="">El jugador estrella de los Lakers, LeBron James, sigue sumando récords a su carrera profesional y esta vez logró alcanzar el título del máximo anotador de la NBA, la liga más importante de básquet en Estados Unidos. 
-                    Aclamado como "el Elegido" cuando aún estaba en el instituto, LeBron James siempre pareció destinado a convertirse en el máximo anotador de todos los tiempos de la Asociación Nacional de Baloncesto estadounidense (NBA) y reclamar un récord que él mismo creyó que nunca sería rebasado. Ese momento aparentemente inevitable llegó el martes.
-                    
-                    Casi 20 años después de anotar sus dos primeros puntos el 29 de octubre de 2003, James anotó un tiro en suspensión al final del tercer cuarto en la derrota de Los Ángeles Lakers por 133-130 ante los Oklahoma City Thunder, superando los 38.387 puntos de Kareem Abdul-Jabbar para grabar su nombre en los libros de historia..</p>
-                  <p class="card-text"><small class="text-body-secondary">8 de febrero. EE.UU</small></p>
-                  <a href="../nomcategorias/catdeporte.html" class="btn btn-primary">Volver</a>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </center>
-        <h4 id="texto">Autor:Ruminot</h4>
-       
+      </div>
+    </div>
+  </center>
+  <h4 id="texto">Autor:Ruminot</h4>
